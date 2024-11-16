@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">AYAN</a>
+
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#about-me">About</a>
+        <a href="#contactus">ContactUs</a>
+      </nav>
+
+      <!-- Checkbox for dropdwon-->
+      <label for="menu-toggle" class="hamburger-menu">☰</label>
+      <input type="checkbox" id="menu-toggle" />
+
+      <div class="dropdown">
+        <a href="#">Home</a>
+        <a href="#about-me">About</a>
+        <a href="#contactus">Contact</a>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="home-cont">
+        <h1>I'am Ayan Shariff</h1>
+        <h3>Mern Stack And Blockchain developer</h3>
+        <p>
+          I'm a MERN stack and blockchain developer with a strong foundation in
+          building scalable web applications and decentralized solutions.
+          Passionate about combining creativity with technology, I focus on
+          creating efficient and user-friendly experiences. Constantly learning,
+          I'm dedicated to staying at the forefront of emerging tech trends
+        </p>
+        <div class="btn">
+          <a href="#">More Info</a>
+          <a href="#">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="about-me">
+      <div class="content-wrapper">
+        <h1>About Me</h1>
+        <p>
+          Hello! I'm a passionate MERN Stack and Blockchain Developer. I
+          specialize in creating efficient, scalable, and modern web
+          applications using technologies like MongoDB, Express, React, and
+          Node.js. Blockchain development is my other expertise, where I focus
+          on building decentralized applications and smart contracts to solve
+          real-world problems.
+        </p>
+        <p>
+          With a strong foundation in both front-end and back-end development, I
+          aim to deliver seamless user experiences. I'm constantly learning new
+          technologies to enhance my skills and keep up with the ever-evolving
+          tech landscape.
+        </p>
+        <a href="#" class="portfolio-btn">Portfolio</a>
+      </div>
+    </section>
+
+    <section id="contactus">
+      <div class="sec">
+        <div class="contact-container">
+          <!-- Left Section -->
+          <div class="contact-info">
+            <p>
+              Your thoughts, questions, and feedback are what help us grow and
+              improve. Reach out to us using the form below or through any of
+              the other contact methods provided.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span>📧</span>
+                <p>ayanshariff462@gmail.com</p>
+              </div>
+              <div class="contact-item">
+                <span>📞</span>
+                <p>+9191919191</p>
+              </div>
+              <div class="contact-item">
+                <span>📍</span>
+                <p>ramnagaram 562159 karnataka</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Section - Form -->
+          <div class="contact-form">
+            <form>
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+              />
+
+              <label for="email">Your Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+
+              <label for="subject">What's this about?</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter a subject"
+              />
+
+              <label for="message">Message Box</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Please type your message here"
+              ></textarea>
+
+              <button type="submit">Send Now</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="map-placeholder">
+          <div class="map-box">
+            <!-- <p>Open in Maps ➔</p> -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31135.880097753892!2d77.26380717703893!3d12.714400618614901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae4dd83a66e425%3A0xccb8201d46743a0b!2sRamanagara%2C%20Karnataka%20562159!5e0!3m2!1sen!2sin!4v1731476175868!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
